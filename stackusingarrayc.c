@@ -1,8 +1,10 @@
+//Stack using Array
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
 #define max 100
 int st[max],i,top=-1;
+//Declaring Functions to be performed on the stack
 void push(int st[],int val);
 int pop(int st[]);
 int peek(int st[]);
